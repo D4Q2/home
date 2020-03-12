@@ -6,13 +6,6 @@
      window.open('https://d4q2.github.io/donate');
    }
 
-   // And for the settings page
-   function settingsPage()
-   {
-     window.open('https://d4q2.github.io/settings');
-   }
-
-
    let menuBool = false;
 
    function openMenu()
@@ -44,15 +37,6 @@
         // Move it into the perfect position
         donateButton.style.transform = "translateX(-10px)";
 
-
-        // And the same process for the settings button
-        var settingsButton = document.createElement("BUTTON");
-        settingsButton.innerHTML = "Settings";
-        settingsButton.setAttribute("class", "menuButton");
-        settingsButton.setAttribute("id", "settingsButton");
-        menu.appendChild(settingsButton);
-        settingsButton.style.transform = "translateX(-20px)";
-        settingsButton.onclick = settingsPage;
      }
 
      else
