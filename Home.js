@@ -3,7 +3,7 @@
    function donatePage()
    {
      // Code to take us to the donate page
-     window.open('https://d4q2.github.io/donate');
+     location.href = "https://d4q2.github.io/donate";
    }
 
    let menuBool = false;
