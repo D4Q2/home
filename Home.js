@@ -42,7 +42,7 @@
         hostDriveButton.innerHTML = "Host Drive";
         hostDriveButton.setAttribute("class", "menuButton");
         hostDriveButton.setAttribute("id", "hostDriveButton");
-        menu.appendChild(Button);
+        menu.appendChild(hostDriveButton);
         hostDriveButton.style.transform = "translateX(-20px)";
         hostDriveButton.onclick = hostDrivePage;
         
@@ -51,7 +51,7 @@
         donateAnimalsButton.innerHTML = "Donate Stuffed Animals";
         donateAnimalsButton.setAttribute("class", "menuButton");
         donateAnimalsButton.setAttribute("id", "donateAnimalsButton");
-        menu.appendChild(Button);
+        menu.appendChild(donateAnimalsButton);
         donateAnimalsButton.style.transform = "translateX(-30px)";
         donateAnimalsButton.onclick = donateAnimalsPage;
         
@@ -60,7 +60,7 @@
         donateMoneyButton.innerHTML = "Donate Money";
         donateMoneyButton.setAttribute("class", "menuButton");
         donateMoneyButton.setAttribute("id", "moneyButton");
-        menu.appendChild(Button);
+        menu.appendChild(donateMoneyButton);
         donateMoneyButton.style.transform = "translateX(-40px)";
         donateMoneyButton.onclick = donateMoneyPage;
      }
