@@ -6,6 +6,27 @@
      location.href = "https://d4q2.github.io/donate";
    }
 
+   // A function to take us to the host drive page
+   function hostDrivePage()
+   {
+     // Code to take us to the donate page
+     location.href = "https://d4q2.github.io/hostdrive";
+   }
+
+   // A function to take us to the donate animals page
+   function donateAnimalsPage()
+   {
+     // Code to take us to the donate page
+     location.href = "https://d4q2.github.io/donateanimals";
+   }
+
+   // A function to take us to the donate page
+   function donateMoneyPage()
+   {
+     // Code to take us to the donate page
+     location.href = "https://d4q2.github.io/donatemoney";
+   }
+
    let menuBool = false;
 
    function openMenu()
