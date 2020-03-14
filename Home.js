@@ -14,7 +14,7 @@
    }
 
    // A function to take us to the donate animals page
-   function donateAnimalsPage()
+   function donationLocationsPage()
    {
      // Code to take us to the donate page
      location.href = "https://d4q2.github.io/donationlocations";
