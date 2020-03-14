@@ -42,7 +42,7 @@
        var donateButton = document.createElement("BUTTON");
 
         // Change the innerHTML to a sensible set of text (in this case donate)
-        donateButton.innerHTML = "Donate";
+        donateButton.innerHTML = "Help Out";
 
         // Change the class to the class for menu buttons and the id to donateButton so we can access it 
         // easier and it can assume previously defined css values
@@ -69,7 +69,7 @@
         
         // And also the same process for the donate animals button
         var donateAnimalsButton = document.createElement("BUTTON");
-        donateAnimalsButton.innerHTML = "Donate Stuffed Animals";
+        donateAnimalsButton.innerHTML = "Donation Locations";
         donateAnimalsButton.setAttribute("class", "menuButton");
         donateAnimalsButton.setAttribute("id", "donateAnimalsButton");
         menu.appendChild(donateAnimalsButton);
