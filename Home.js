@@ -36,7 +36,33 @@
 
         // Move it into the perfect position
         donateButton.style.transform = "translateX(-10px)";
-
+        
+        // And also the same process for the host drive button
+        var hostDriveButton = document.createElement("BUTTON");
+        hostDriveButton.innerHTML = "Host Drive";
+        hostDriveButton.setAttribute("class", "menuButton");
+        hostDriveButton.setAttribute("id", "hostDriveButton");
+        menu.appendChild(Button);
+        hostDriveButton.style.transform = "translateX(-20px)";
+        hostDriveButton.onclick = hostDrivePage;
+        
+        // And also the same process for the donate animals button
+        var donateAnimalsButton = document.createElement("BUTTON");
+        donateAnimalsButton.innerHTML = "Donate Stuffed Animals";
+        donateAnimalsButton.setAttribute("class", "menuButton");
+        donateAnimalsButton.setAttribute("id", "donateAnimalsButton");
+        menu.appendChild(Button);
+        donateAnimalsButton.style.transform = "translateX(-30px)";
+        donateAnimalsButton.onclick = donateAnimalsPage;
+        
+        // And also the same process for the donate money button
+        var donateMoneyButton = document.createElement("BUTTON");
+        donateMoneyButton.innerHTML = "Donate Money";
+        donateMoneyButton.setAttribute("class", "menuButton");
+        donateMoneyButton.setAttribute("id", "moneyButton");
+        menu.appendChild(Button);
+        donateMoneyButton.style.transform = "translateX(-40px)";
+        donateMoneyButton.onclick = donateMoneyPage;
      }
 
      else
